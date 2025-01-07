@@ -77,7 +77,24 @@ footer p {
     font-size: 0.9rem;
 }
 
+/* Ajustes para dispositivos móviles */
 @media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
     .content {
         flex-direction: column;
         text-align: center;
@@ -89,5 +106,24 @@ footer p {
 
     .content div {
         text-align: center;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Ajustes adicionales para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    section h2 {
+        font-size: 1.3rem;
+    }
+
+    .content img {
+        margin-bottom: 1rem;
     }
 }
